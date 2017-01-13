@@ -625,8 +625,10 @@ nav {
     nav ul li.menu {
       background-color: #E6C81B;
       border: 1px solid #E6C81B; }
-      nav ul li.menu a:hover {
+      nav ul li.menu a {
         color: #000; }
+        nav ul li.menu a:hover {
+          color: #fff; }
 
 /* Overlay Nav */
 .overlay {
