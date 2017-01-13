@@ -714,8 +714,7 @@ nav {
 .hero {
   padding: 0 0 40px 0;
   width: 100%;
-  background-image: url(../images/cover-mobile.jpg);
-  background-size: cover;
+  background: url(../images/cover-mobile.jpg);
   background-position: center center;
   background-attachment: fixed;
   color: #fff;
@@ -723,7 +722,8 @@ nav {
   @media screen and (min-width: 960px) {
     .hero {
       padding: 40px 0;
-      background-image: url(../images/cover.jpg); } }
+      background-image: url(../images/cover.jpg);
+      background-size: cover; } }
   .hero h1 {
     color: #fff; }
   .hero--compact {
